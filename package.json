@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node src/app.js"
+=======
+    "start": "node src/app.js"          
+>>>>>>> f34056ca63a50bfa0a9de328234053c78f8733a4
   },
   "keywords": [],
   "author": "",
