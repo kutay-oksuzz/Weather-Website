@@ -11,7 +11,6 @@ weatherForm.addEventListener("submit", (e) => {
   messageTwo.textContent = "";
   messageOne.textContent = "Loading..";
 
-<<<<<<< HEAD
   fetch(`/weather?address=${location}`).then((response) => {
     response.json().then((data) => {
       if (data.error) {
@@ -22,7 +21,6 @@ weatherForm.addEventListener("submit", (e) => {
       }
     });
   });
-=======
   fetch(`/weather?address=${location}`).then(
     (response) => {
       response.json().then((data) => {
@@ -35,5 +33,4 @@ weatherForm.addEventListener("submit", (e) => {
       });
     }
   );
->>>>>>> f34056ca63a50bfa0a9de328234053c78f8733a4
 });
